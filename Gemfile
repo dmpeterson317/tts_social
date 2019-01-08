@@ -66,3 +66,7 @@ gem "carrierwave"
 gem "bootstrap-sass"
 gem "jquery-rails"
 gem "font-awesome-rails"
+gem "httparty" 
+# used for making web requests to apt, hit this url get back response
+gem "figaro"
+# used to store all of our keys in secure location that does not go up when push to githb
